@@ -1,0 +1,5 @@
+# make sure these are not included with the production site
+exclude:
+  - README.md
+  - src/
+
