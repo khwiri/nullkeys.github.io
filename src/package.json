@@ -1,13 +1,8 @@
 {
-  "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.8.0"
-  },
-  "scripts": {
-    "postinstall": "cd themes/tranquilpeak && npm install",
-    "build": "hexo generate"
   },
   "dependencies": {
     "hexo": "^3.7.0",

@@ -1,5 +1,10 @@
 # make sure these are not included with the production site
 exclude:
+  - .nvmrc
+  - .gitignore
+  - package.json
+  - package-lock.json
   - README.md
+  - manage.js
   - src/
 
