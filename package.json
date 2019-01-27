@@ -1,0 +1,16 @@
+{
+  "name": "nullkeys.github.io",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node manage.js server",
+    "build": "node manage.js build",
+    "publish": "node manage.js publish",
+    "post": "node manage.js create_post"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "hexo-cli": "^1.1.0",
+    "make-runnable": "^1.3.6"
+  }
+}
